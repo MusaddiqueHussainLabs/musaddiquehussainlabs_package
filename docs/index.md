@@ -114,14 +114,3 @@ print(result)
 ```
 
 Feel free to explore more functionalities and customize the usage based on your requirements!
-
-For detailed usage examples and API documentation, please refer to the [documentation](link_to_your_documentation) (docs link comming soon) available.
-
-## Upcoming Features
-
-We're continuously working on expanding MusaddiqueHussainLabs to provide even more capabilities for NLP tasks.
-Please stay tuned for these exciting enhancements!
-
-## License
-
-This project is licensed under the [MIT License](LICENSE).

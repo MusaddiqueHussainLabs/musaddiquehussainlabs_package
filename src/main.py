@@ -62,12 +62,12 @@ if __name__ == "__main__":
     # print(result)
 
     # text_to_process = ""
-    # preprocessed_text = preprocess_text(data_to_process)
-    # print(preprocessed_text)
-
-    preprocess_functions = [preprocess_operations.expand_contraction]
-    preprocessed_text = preprocess_text(data_to_process, preprocess_functions)
+    preprocessed_text = preprocess_text(data_to_process)
     print(preprocessed_text)
+
+    # preprocess_functions = [preprocess_operations.expand_contraction]
+    # preprocessed_text = preprocess_text(data_to_process, preprocess_functions)
+    # print(preprocessed_text)
 
     # document_analysis = DocumentAnalysis()
     # # result = document_analysis.full_analysis(data_to_process)

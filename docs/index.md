@@ -83,7 +83,7 @@ pip install musaddiquehussainlabs
 
 ```python
 from musaddiquehussainlabs.nlp_components import nlp
-from musaddiquehussainlabs.text_preprocessing import preprocess_text, to_lower, remove_email, remove_url, remove_punctuation, lemmatize_word
+from musaddiquehussainlabs.text_preprocessing import preprocess_text, preprocess_operations
 from musaddiquehussainlabs.document_analysis import DocumentAnalysis
 
 data_to_process = "The employee's SSN is 859-98-0987. The employee's phone number is 555-555-5555."
@@ -97,7 +97,7 @@ preprocessed_text = preprocess_text(data_to_process)
 print(preprocessed_text)
 
 # Custom Text preprocessing
-preprocess_functions = [to_lower, remove_email, remove_url, remove_punctuation, lemmatize_word]
+preprocess_functions = [preprocess_operations.to_lower]
 preprocessed_text = preprocess_text(data_to_process, preprocess_functions)
 print(preprocessed_text)
 
